@@ -1,0 +1,24 @@
+#define NO_ERROR			0
+#define TIMEOUT_ERROR       1
+#define STATE_NOT_READY     2
+#define STATE_NOT_IDLE      3
+#define UNKNOWN_STATE       4
+#define GYRO_NOT_FOUND      5
+#define ACCEL_MAG_NOT_FOUND 6
+#define INCORRECT_FILTER_SELECTION 7
+
+#define SD_INIT_FAILED      8
+#define CREATE_FILE_FAILED1 9
+#define CREATE_FILE_FAILED2 10
+#define OPEN_FILE_FAILED    11
+#define DATA_WRITE_FAILED   12
+#define DATA_READ_FAILED    13
+#define SD_FILE_EXISTS      14
+#define BUILD_SENSOR_DIR_FAILED     15
+#define BUILD_SENSOR_PATH_FAILED    16
+#define FILE_NOT_FOUND              17
+#define WRONG_FILE_ID_GIVEN         18
+
+#define CUR_SENSOR_INIT_FAILED      20
+#define CUR_SENSOR_WRONG_MEAS       21
+#define HIGH_CURRENT_MEASURED       22
